@@ -1,0 +1,285 @@
+div {
+    display: flex;
+}
+body {
+    display: flex;
+    background-color: hsl(30, 38%, 92%);
+
+    justify-content: center;
+
+    align-items: center;
+    min-height: 675.2px;
+
+
+}
+
+
+
+.mug {
+    color: gray;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+
+
+
+}
+
+.content {
+    background-color: white;
+    padding: 10px 20px 30px 20px;
+    height: 700;
+    width: 300.6px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    display: block;
+
+}
+
+.content button {
+    background-color: rgb(60, 128, 102);
+    border-radius: 9.33px;
+
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 13.33px;
+    font-weight: 400px;
+    height: 46.65px;
+    width: 245.6px;
+    text-align: center;
+    margin: 26.667px 0px 13.33px 0px;
+    padding-top: 13.66px;
+    padding-bottom: 13.66px;
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    font-stretch: 100%;
+    font-weight: 400px;
+}
+
+.h1 {
+    font-family: serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    height: 64px;
+    margin-block-end: 22.4px;
+    margin-block-start: 19.2px;
+    margin-bottom: 22.4px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-top: 19.2px;
+    width: 245.6px;
+    text-align: left;
+
+
+}
+
+.mrs {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#mug_3 {
+    font-size: 32px;
+    font-family: serif;
+    line-height: 32px;
+    margin-top: 19.2px;
+    margin-bottom: 22.42px;
+    margin-left: 0px;
+    margin-right: 9.6px;
+    text-align: left;
+    color: rgb(60, 128, 102);
+    font-weight: 700px;
+
+
+}
+
+#mug_4 {
+    display: flex;
+    color: grey;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    text-align: left;
+    width: 96%;
+    text-decoration: line-through;
+
+    justify-content: flex-start;
+
+
+}
+
+#mug_1 {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 18.4px
+}
+
+
+
+@media screen and (max-width:768px) {
+    .boxes{
+        display:block;
+        
+      }
+     #img{
+        display: flex;
+        padding: auto;
+        margin-top:10px;  
+        content: center;
+        justify-content: center;
+        align-items: center;
+        
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        width: 24rem;
+     }
+     .content{
+        text-align: center;
+        padding: auto;
+        
+        content: center;
+        justify-content: center;
+        align-items: center;
+        
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 21.5rem;
+     } 
+     #mug_1{
+        text-align: center;
+     }
+     .h1{
+        margin-left: 44px;
+        text-align: center;
+        font-size:30px;
+     }
+     #mug_2{
+        margin-top: -40px;
+        text-align: center;
+       
+     }
+     #mug_3{
+        margin-left: 40%;
+     }
+     #mug_4{
+        margin-left:45%;
+     }
+
+}
+
+@media screen and (max-width:480px) {
+
+    .boxes{
+      display:block;
+    }
+   #img{
+      display: flex;
+      padding: auto;
+      margin-top:10px;  
+      content: center;
+      justify-content: center;
+      align-items: center;
+      
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 0px;
+      width: 24rem;
+   }
+   .content{
+      text-align: center;
+      padding: auto;
+      
+      content: center;
+      justify-content: center;
+      align-items: center;
+      
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      width: 21.5rem;
+   } 
+   #mug_1{
+      text-align: center;
+   }
+   .h1{
+      margin-left: 44px;
+      text-align: center;
+      font-size:30px;
+   }
+   #mug_2{
+      margin-top: -40px;
+      text-align: center;
+     
+   }
+   #mug_3{
+      margin-left: 40%;
+   }
+   #mug_4{
+      margin-left:45%;
+   }
+  
+  }
+  
+
+@media screen and (max-width:280px) {
+    .boxes{
+        display:block;
+      }
+     #img{
+        margin-top:-8px;
+        display: flex;
+        padding-left:30px;
+        margin-left:80px;        
+        content: center;
+        justify-content: center;
+        align-items: center;
+        width:25rem;
+     }
+     .content{
+        
+        padding-left:50px;
+        margin-left:100px;  
+        content: center;
+        justify-content: center;
+        align-items: center;
+       
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 20rem;
+     } 
+     #mug_1{
+        text-align: center;
+     }
+     .h1{
+        margin-left: 44px;
+        text-align: center;
+        font-size:30px;
+     }
+     #mug_2{
+        margin-top: -40px;
+        text-align: center;
+       
+     }
+     #mug_3{
+        margin-left: 40%;
+     }
+     #mug_4{
+        margin-left:45%;
+     }
+
+}
